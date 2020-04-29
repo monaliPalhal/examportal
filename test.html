@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>test</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>update test in database</h1>
+        <div>
+            <form method="post">
+                <h3>select type</h3>
+                operation:
+                    add:<input type="radio" name="ope" value="add" /> 
+                    delete:<input type="radio" name="ope" value="delete" /><br/><br/>
+                    test_name:
+                    sr_no:<input type="text" name="test" value="test" />
+                class:<select name="class">
+                         <option>8th</option>
+                         <option>9th</option>
+                         <option>10th</option>
+                         <option>11th</option>
+                         <option>12th</option>
+                       </select><br/><br/>
+                subject:<select name="subject">
+                         <option>science</option>
+                         <option>math</option>
+                         <option>english</option>
+                         <option>biology</option>
+                         <option>Math</option>
+                       </select><br/><br/>
+                add_question:
+                    hard:<input type="radio" name="level" value="hard" /> 
+                    Medium:<input type="radio" name="level" value="easy" />
+                    easy:<input type="radio" name="level" value="easy" />  
+                 question_type:
+                    MCQ:<input type="radio" name="type" value="multiple" /> 
+                    Numeric:<input type="radio" name="type" value="shortans" />
+             <br/><br/>
+                question_MCQ:
+                    question:<input type="text" name="mcq" value="question" /><br/>
+                    option1:<input type="text" name="mcq" value="op1" />
+                    option2:<input type="text" name="mcq" value="op2" />
+                    option3:<input type="text" name="mcq" value="op3" />
+                     option4:<input type="text" name="mcq" value="op4" /><br/>
+                     answer:<input type="text" name="mcq" value="ans" /> <br/><br/>
+                   question_Numeric:
+                    question:<input type="text" name="num" value="question" /><br/>
+                    answer:<input type="text" name="ans" value="ans" /><br><br/>
+                    Add test:<input type="submit" value="Click Here">    
+            </form>
+        </div>
+    </body>
+</html>
